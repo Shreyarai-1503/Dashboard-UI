@@ -34,3 +34,5 @@ This project is a UI dashboard for tracking financial data using React with Vite
     
     ```bash
     npm run dev
+
+![image](https://github.com/Shreyarai-1503/Dashboard-UI/assets/130877780/9bce5118-ebdf-4904-bd1f-8d26660aa286)
