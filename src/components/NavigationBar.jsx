@@ -50,13 +50,13 @@ const NavigationBar = () => {
     <motion.div
       animate={isExpanded ? "expanded" : "nonExpanded"}
       variants={variants}
-      className={`py-12 flex flex-col border border-r-1 w-1/5 h-screen relative ${
+      className={`py-12 flex flex-col w-1/5 h-screen relative ${
         isExpanded ? "px-10" : "px-4"
       }`}
     >
       <div className="logo-div flex space-x-3 items-center">
         <img src={Logo} />
-        {isExpanded && <span>Money Tracker</span>}
+        {isExpanded && <span className="text-xl font-semibold">Money Tracker</span>}
       </div>
 
       <div className="w-5 h-5 bg-[#FF8C8C] rounded-full absolute -right-2.5 top-14 flex items-center justify-center text-lg text-white cursor-pointer" onClick={() => setIsExpanded(!isExpanded)}>
